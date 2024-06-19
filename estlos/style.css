@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+   background-color: antiquewhite;
+}
+.pri{
+    position: relative;
+    margin-left: 135px;
+    background-color: green;
+    width: 80%;
+    height: 100px;
+}
+h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    color: #fff;
+  
+}
+.tres{
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+    border: 1px solid rgb(71, 42, 6);
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    
+}
+.fin{
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    margin-top: 400px;
+}

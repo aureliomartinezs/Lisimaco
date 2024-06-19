@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="estlos/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <form method="post" action="email.php" enctype="multipart/form-data"> 
+        <h1 class="pri">Registre a la plataforma</h1>
+          
+       <div class="tres">
+        
+              
+             <div class="izq">
+                  <h2>Dades personals</h2> 
+                  <p>
+                    <label for="nom">Nom Complet</label>
+                    <input id="nom" type="text" name="nom" placeholder="Escriba su nombre" tabindex="1">
+                 </p>
+
+                 <p>
+                    <label for="email">Correu electrónc</label>
+                    <input id="email" type="email" name="email"  placeholder="johnsmith@gmail.org" required tabindex="2">
+                 </p>
+
+                 <p>
+                    <label for="contr">la seva contrasenya</label>
+                    <input id="contr" type="password" name="contr" pattern="[A-Zaz]{0-9 \$ \% \#}" placeholder="Mínim 8 caracteres" required tabindex="3">
+
+                 <p>
+                    <label for="len">Idioma preferit</label>
+                    <input id="len" type="text" name="len"  placeholder="El seu idioma" tabindex="4">
+                 </p>
+             </div>
+
+             <div class="cen">
+                  <h2>Usuari</h2>
+                  <p>
+                    <label for="usu">Nom d'usuari</label>
+                    <input id="usu" type="text" name="usu" placeholder="El seu nom Usuari" tabindex="5">
+                  </p>
+
+                  <p>
+                    <label for="cara">Avatar</label>
+                    <input id="cara" type="file" name="cara" tabindex="6">
+                  </p>
+
+                  <p>
+                    <label for="usu">Su biografia</label>
+                    <textarea name="Comentario"></textarea>
+                  </p>
+             </div>
+
+             <div class="der">
+
+                <div class="cual">
+                    <p>Del següents tria el teu gènere favorite</p>
+                    <p>
+                       <input id="acc" type="checkbox" name="acc">
+                       <label for="acc">Acció</label>
+                    </p>
+                    
+                    <p>
+                       <input id="ura" type="checkbox" name="ura">
+                       <label for="ura">Aventura</label>
+                    </p>
+
+                    <p>
+                        <input id="est" type="checkbox" name="est">
+                        <label for="est">Estratègia</label>
+                     </p>
+
+                     <p>
+                        <input id="rol" type="checkbox" name="rol">
+                        <label for="rol">Rol(RPG)</label>
+                     </p>
+
+                     <p>
+                        <input id="esp" type="checkbox" name="esp">
+                        <label for="esp">Esports</label>
+                     </p>
+
+                     <p>
+                        <input id="sim" type="checkbox" name="sim">
+                        <label for="sim">Simulació</label>
+                     </p>
+
+                     <p>
+                        <input id="puz" type="checkbox" name="puz">
+                        <label for="puz">Puzzle</label>
+                     </p>
+                </div> 
+                    
+                <div class="coge">   
+                   <p>Del següents jocs tria el teu favorite</p>
+                   <p> 
+                      <input id="league" type="radio"  name="league" checked>
+                       <label for="league">League of Legends</label>
+                   </p>
+   
+                   <p> 
+                       <input id="apex" type="radio"  name="league"> 
+                       <label for="apex">Apex legends</label>
+                   </p>   
+   
+                   <p>
+                       <input id="ablo" type="radio" name="league"> 
+                       <label for="ablo">Diablo Inmortal</label>
+                   </p>
+   
+                   <p>
+                       <input id="rune" type="radio" name="league">  
+                       <label for="rune">RuneScape</label>
+                   </p>
+   
+                   <p>
+                       <input id="wor" type="radio" name="league"> 
+                       <label for="wor">World of tanks</label>
+                   </p>
+                </div>
+
+            </div>
+
+              <div class="fin">
+
+                   <div class="acor">
+                    <input id="bot" type="submit" name="bot" value="Enviar">
+                    <input id="ton" type="reset" name="ton" value="Cancelar">
+                   </div>
+                  
+                   <div class="segu">
+                   <input id="res" type="text" name="res" value="REGISTRAR">
+                   </div>
+
+                     <div class="ros">
+                     <p>
+                     <input id="lle" type="checkbox" name="lle">
+                     <label for="lle">He llegit i estic d'acord amb els termes del servei</label>
+                     </p>
+                     </div>
+               </div>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
